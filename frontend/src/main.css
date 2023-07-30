@@ -1,0 +1,181 @@
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+    /*background-image: url('/src/assets/bg3.jpg');
+    /* background-image: linear-gradient(to top, #380036, #31346f, #00629b, #008fb3, #0cbaba); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+
+form{
+    padding: 1rem 0rem;
+    border-radius: 6px;
+    border: none;
+    width: 31rem;
+    text-align: center;
+    margin: 12rem auto;
+    background: #00000017;
+   
+}
+
+label {
+    color: #9e9a90;
+}
+
+input, select {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    background-color: #00000030;
+    padding: 3px 20px;
+    color: white;
+}
+
+select {
+    width: 22.5rem;
+    height: 2.5rem;
+}
+
+option {
+    background-color: white;
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: none;
+    background: #ffc32c;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dfaa25;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0rem 2rem;
+    margin-top: 5rem;
+}
+
+
+.card {
+    width: 20rem;
+    text-align: center;
+    border-radius: 10px;
+    height: 21rem;
+    background: #0000003d;
+
+    margin: 1rem 0rem;
+    color: white;
+    border: 2px solid #ffffff2e;
+
+}
+
+.card:hover {
+    background-color: #0000002c;
+}
+
+.title {
+    /* background-color: #f1f1f1; */
+    margin: 7px 7px;
+    border-radius: 5px;
+    height: 55px;
+    overflow-x: auto;
+}
+
+.description {
+    /* background-color: #f1f1f1; */
+    margin: 7px 7px;
+    border-radius: 5px;
+    height: 6rem;
+    overflow-x: auto;
+}
+
+.popup-overlay {
+    background-color: #00000087;
+}
+
+.popup-content {
+    background-color: white;
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.parent-container {
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    margin-top: 8%;
+}
+
+#left{
+    background: #00000017;
+    border-radius: 15px;
+    border: 2px solid #ffffff2e;
+    margin: 0rem 12rem;
+    text-align: center;
+    width: 17rem;
+    height: 20rem;
+    margin-top: 2.5rem;
+}
+
+#right{
+    padding: 0rem 3rem;
+}
+
+.feature {
+    display: flex;
+    border: 1px solid white;
+    border-radius: 15px;
+    border: 2px solid #ffffff70;
+    background: #0000007a;
+    margin: 1rem 1rem;
+    padding: 0rem 1rem;
+}
+.feature img{
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem 0rem;
+}
+
+.content {
+    padding: 0rem 2rem;
+}
+
+.google-login-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  /* Customize the button appearance */
+  .google-login-container button {
+    background-color: #dd4b39; /* Set your desired background color */
+    color: white; /* Set text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect */
+  .google-login-container button:hover {
+    background-color: #c23321; /* Set your desired hover background color */
+  }
